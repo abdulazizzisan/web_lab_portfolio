@@ -232,6 +232,12 @@ img {
     margin: 0;
 }
 
+.nav__logo img {
+    height: 32px;
+    width: auto;
+    object-fit: contain;
+}
+
 .nav__menu {
     display: flex;
     align-items: center;
@@ -984,5 +990,9 @@ img {
     
     .skills__content {
         grid-template-columns: 1fr;
+    }
+    
+    .nav__logo img {
+        height: 28px;
     }
 }
