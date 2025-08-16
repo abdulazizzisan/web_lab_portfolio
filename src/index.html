@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zisan's - Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2>Md Abdul Aziz Zisan</h2>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+            <div class="hero__container container grid">
+                <div class="hero__content">
+                    <div class="hero__social">
+                        <a href="https://www.linkedin.com/in/abdulazizzisan/" class="hero__social-link" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/abdulazizzisan" class="hero__social-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://x.com/abdulazizzisan" class="hero__social-link" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                    <div class="hero__img">
+                        <svg class="hero__blob" viewBox="0 0 479 467">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                                <image class="hero__blob-img" x="-50" y="10" href="./assets/profile.png"/>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="hero__data">
+                        <h1 class="hero__title">Hi, I'm Md Abdul Aziz Zisan</h1>
+                        <h3 class="hero__subtitle">Full Stack Web Developer</h3>
+                        <p class="hero__description">
+                            Passionate developer with expertise in modern web technologies. 
+                            I create beautiful, functional, and user-friendly applications 
+                            that solve real-world problems and deliver exceptional user experiences.
+                        </p>
+                        <div class="hero__buttons">
+                            <a href="#contact" class="button button--flex">
+                                Contact Me <i class="fas fa-paper-plane button__icon"></i>
+                            </a>
+                            <a href="https://abdulazizzisan.com/resume" class="button button--white button--flex" download>
+                                Download CV <i class="fas fa-download button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__scroll">
+                    <a href="#about" class="hero__scroll-button button--flex">
+                        <i class="fas fa-mouse hero__scroll-mouse"></i>
+                        <span class="hero__scroll-name">Scroll down</span>
+                        <i class="fas fa-arrow-down hero__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My introduction</span>
+            <div class="about__container container grid">
+                <img src="assets/main.jpg" alt="About me" class="about__img">
+                <div class="about__data">
+                    <p class="about__description">
+                        I'm a passionate full-stack developer with over 3 years of experience 
+                        creating digital solutions. I specialize in modern web technologies 
+                        and love turning complex problems into simple, beautiful designs.
+                    </p>
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">06+</span>
+                            <span class="about__info-name">Month <br> experience</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">5+</span>
+                            <span class="about__info-name">Completed <br> projects</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">00</span>
+                            <span class="about__info-name">Companies <br> worked</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My technical level</span>
+            <div class="skills__container container grid">
+                <div>
+                    <!-- Frontend Skills -->
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="fas fa-code skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title">Frontend Developer</h1>
+                                <span class="skills__subtitle">More than 6 Months</span>
+                            </div>
+                            <i class="fas fa-chevron-down skills__arrow"></i>
+                        </div>
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__html"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__css"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <span class="skills__number">65%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__js"></span>
+                                </div>
+                            </div>
+                            <!-- <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">React</h3>
+                                    <span class="skills__number">75%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__react"></span>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+
+                    <!-- Backend Skills -->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="fas fa-server skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title">Backend Developer</h1>
+                                <span class="skills__subtitle">More than 6 Months</span>
+                            </div>
+                            <i class="fas fa-chevron-down skills__arrow"></i>
+                        </div>
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Laravel</h3>
+                                    <span class="skills__number">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__node"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">MySQL</h3>
+                                    <span class="skills__number">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__mongo"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">PHP</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__python"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="portfolio section" id="projects">
+            <h2 class="section__title">Projects</h2>
+            <span class="section__subtitle">Most recent work</span>
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- Project 1 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/marrage.jpg" alt="Project 1" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Marriage Bio-Data</h3>
+                            <p class="portfolio__description">It is a Marriage bio-data site created with HTML and CSS. It is created as a part of my lab report for my Web engendering lab.</p>
+                            <div class="portfolio__technologies">
+                                <span class="portfolio__tech">HTML</span>
+                                <span class="portfolio__tech">CSS</span>
+                            </div>
+                            <div class="portfolio__buttons">
+                                <a href="#" class="button button--flex button--small portfolio__button">
+                                    Demo <i class="fas fa-arrow-right button__icon"></i>
+                                </a>
+                                <a href="https://github.com/abdulazizzisan/Web-Engineering-Lab" class="button button--flex button--small portfolio__button">
+                                    Code <i class="fab fa-github button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/cal.png" alt="Project 4" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Calculator</h3>
+                            <p class="portfolio__description">This is a simple calculator application built with HTML, CSS, and JavaScript for my lab.</p>
+                            <div class="portfolio__technologies">
+                                <span class="portfolio__tech">HTML</span>
+                                <span class="portfolio__tech">CSS</span>
+                                <span class="portfolio__tech">JavaScript</span>
+                            </div>
+                            <div class="portfolio__buttons">
+                                <a href="your-demo-link" class="button button--flex button--small portfolio__button">
+                                    Demo <i class="fas fa-arrow-right button__icon"></i>
+                                </a>
+                                <a href="https://github.com/abdulazizzisan/web_lab_calculator" class="button button--flex button--small portfolio__button">
+                                    Code <i class="fab fa-github button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="fas fa-phone contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Call Me</h3>
+                            <span class="contact__subtitle">+8801516520752</span>
+                        </div>
+                    </div>
+                    <div class="contact__information">
+                        <i class="fas fa-envelope contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contact__subtitle">abdul15-4704@@diu.edu.bd</span>
+                        </div>
+                    </div>
+                    <div class="contact__information">
+                        <i class="fas fa-map-marker-alt contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contact__subtitle">Daffodil Smart City, Ashulia, Dhaka</span>
+                        </div>
+                    </div>
+                </div>
+                <form action="" class="contact__form grid">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="name" class="contact__label">Name</label>
+                            <input type="text" id="name" class="contact__input">
+                        </div>
+                        <div class="contact__content">
+                            <label for="email" class="contact__label">Email</label>
+                            <input type="email" id="email" class="contact__input">
+                        </div>
+                    </div>
+                    <div class="contact__content">
+                        <label for="subject" class="contact__label">Subject</label>
+                        <input type="text" id="subject" class="contact__input">
+                    </div>
+                    <div class="contact__content">
+                        <label for="message" class="contact__label">Message</label>
+                        <textarea name="message" id="message" cols="0" rows="7" class="contact__input"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="button button--flex">
+                            Send Message
+                            <i class="fas fa-paper-plane button__icon"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Md Abdul Aziz Zisan</h1>
+                    <span class="footer__subtitle">Full Stack Developer</span>
+                </div>
+                <ul class="footer__links">
+                    <li>
+                        <a href="#about" class="footer__link">About</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="footer__link">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#projects" class="footer__link">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contact</a>
+                    </li>
+                </ul>
+                <div class="footer__socials">
+                    <a href="https://www.linkedin.com/in/mdsoroarjahan/" class="footer__social" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/mdsoroarjahan" class="footer__social" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://twitter.com/mdsoroarjahan" class="footer__social" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+            <p class="footer__copy">&#169; Md Abdul Aziz Zisan. All rights reserved</p>
+        </div>
+    </footer>
+
+    <!-- Scroll Up -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fas fa-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- Main JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
